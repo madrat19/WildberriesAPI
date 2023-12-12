@@ -87,5 +87,5 @@ if __name__ == '__main__':
     query = makeCreateQuery('orders.json')
     Query(auth, query)
     query = makeInsertQuery('orders.json', 'orders')
-    Query(auth, query)
+    Query(auth, query)  
     
